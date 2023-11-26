@@ -1,0 +1,42 @@
+RPG Character Interface:
+
+    Character Overview:
+
+    * Name[Character Name]
+    * Class [Character Class]
+    * Level [Character Level]
+    * Health Point(HP) :[MaxHP]/[CurrentHP]
+    * Magic Point(MP)  : [MaxMP]/[CurrentMP]
+    * Experience Point(XP) :[XP to Next Level]/[CurrentHP]
+
+
+    Abilities:
+        - Primary Attack : [Attack Name]
+        - Special Ability 1 : [Ability 1 Name]-[Description]
+        - Special Ability 2 : [Ability 2 Name]-[Description]
+        - Special Ability 3 : [Ability 3 Name]-[Description]
+        - Special Ability 4 : [Ability 4 Name]-[Description]
+        - Class-Special Ability : [Class Ability Name]-[Description]
+
+
+    Equipment:
+        - Head:[Accessory Name]-[Effects]
+        - Body:[Accessory Name]-[Effects]
+        - Gauntlets:[Accessory Name]-[Effects]
+        - Boots:[Accessory Name]-[Effects]
+        - Ring1:[Accessory Name]-[Effects]
+        - Ring2:[Accessory Name]-[Effects]
+
+
+    Actions:
+        - Change Class
+        - View Inventory
+        - Use Item
+        - Map
+        - Achievement
+        - Equip/Unequip Item
+        - Save/Load Game
+
+
+//https://mobile.facebook.com/nt/screen/?params=%7B%22note_id%22%3A2756262764629618%7D&path=%2Fnotes%2Fnote%2F&_rdc=1&_rdr
+//https://www.metalbridges.com/final-fantasy-xv-ps4-ps3-xbox-one/
