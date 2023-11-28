@@ -1,0 +1,60 @@
+
+public interface RPGCharacter{
+       void atk();
+       void def();
+       void useSpecialAbility();
+       void useItem();
+}
+
+public interface Warrior extends RPGCharacter{
+        void performSpecialAbility();
+}
+
+public interface Mage extends RPGCharacter{
+        void castSpell();
+}
+
+public interface Assassin extends RPGCharacter{
+        void invisibility();
+}
+
+public interface Archer extends RPGCharacter{
+        void  heavyShot();
+}
+
+public interface RPGAccessory{
+       void equip();
+       void unequip();
+       void information();
+       void sell();
+       void drop();
+       void upgrade();
+}
+
+public interface Head extends RPGAccessory{
+        void increaseCriticalRate();
+}
+
+public interface Body extends RPGAccessory{
+        void increasesArmorAndHP();
+}
+
+public interface Gauntlets extends RPGAccessory{
+        void attackSpeed();
+}
+
+public interface Boots extends RPGAccessory{
+        void runSpeed();
+}
+
+public interface Ring1 extends RPGAccessory{
+        void vampire();
+}
+
+public interface Ring2 extends RPGAccessory{
+        void evade();
+}
+
+
+
+
